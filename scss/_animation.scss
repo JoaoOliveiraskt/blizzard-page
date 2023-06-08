@@ -1,0 +1,124 @@
+@keyframes float {
+    0%{
+        transform: translatey(-2rem);
+    }
+    50%{
+        transform: translateY(0rem);
+    }
+    100%{
+        transform: translatey(-2rem);
+    }
+}
+
+
+@keyframes seta {
+    from{
+        rotate:0deg ;
+        
+    }
+    to{
+        rotate:180deg;
+        filter: invert(52%) sepia(62%) saturate(3774%) hue-rotate(172deg) brightness(104%) contrast(106%);
+    }
+   
+}
+
+@keyframes setaOut {
+    from{
+        rotate:180deg;
+        
+    }
+    to{
+        rotate:0deg;
+        filter: none;
+    }
+}
+
+@keyframes menuJ {
+    from{
+        top: -64rem;
+        opacity: 0;
+    }
+    to{
+        top: 0;
+        opacity: 1;
+    }
+}
+@keyframes menuJOut {
+    from{
+        top: 0rem;
+        opacity: 0;
+    }
+    to{
+        top: -64rem;
+        opacity: 1;
+    }
+}
+
+@keyframes menuE {
+    from{
+        top: -52rem;
+        opacity: 0;
+    }
+    to{
+        top: 0rem;
+        opacity: 1;
+    }
+}
+
+@keyframes menuEOut {
+    from{
+        top: 0rem;
+        opacity: 1;
+    }
+    to{
+        top: -52rem;
+        opacity: 0;
+    }
+}
+
+@keyframes loginAn {
+    from{
+        opacity: 0;
+        
+
+        
+    }
+    to{
+        opacity: 1;
+        
+    }
+}
+
+@keyframes logoutAn {
+    from{
+        opacity: 1;
+    
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes loginContentAn {
+    from{
+        opacity: 0;
+        top: 8rem;
+
+        
+    }
+    to{
+        opacity: 1;
+        top: 0rem;
+    }
+}
+@keyframes logoutContentAn {
+    from{
+        opacity: 1;
+        top: 0rem;
+    }
+    to{
+        opacity: 0;
+        top: 8rem;
+    }
+}

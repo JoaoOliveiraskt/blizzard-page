@@ -1,0 +1,84 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all 0.4s;
+    z-index: 99;
+    visibility: hidden;
+    height: 100%;
+    
+    .login_content{
+        width: 69.8rem;
+        height: 60rem;
+        background-image: url(../img/login-wpp.png);
+        background-position: left left;
+        background-size: cover;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;     
+        button{
+            position: absolute;
+            top: 1.6rem;
+            right: 1.6rem;
+        }
+        img{
+            margin: .8rem;
+        }
+        input {
+          width: 42.6rem;
+          height: 4.8rem;
+          margin-top: 1.6rem;
+          border: 0;
+          border-radius: 5px;
+          font-weight: 500;
+          color: #363842;
+          padding: 0.5rem;
+        }
+        .bn-Logo{
+            padding-bottom: 2rem;
+        }
+        #conect{
+            margin-top: 1.6rem;
+            width: 42.6rem;
+            justify-content: center;
+            transition: 0s;
+            height: 5.2rem;
+        }
+        p{
+            padding-top: 4.1rem;
+            padding-bottom: 1.6rem;
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            font-weight: 500;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            width: 100%;
+           
+            &:first-of-type{
+                
+                font-size: 1.4rem;
+                line-height: 2.1rem;
+            }
+        }
+        
+ 
+        .login_a{
+            font-size: 1.6rem;
+            line-height: 2.4rem;  
+            text-decoration: underline;
+            color: #00AEFF;
+            
+        }
+ 
+    }
+ }

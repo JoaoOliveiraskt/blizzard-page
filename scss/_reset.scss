@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+html {
+   font-size: 62.5%; 
+}
+
+body {
+    background-color: #020203;
+}
+
+
